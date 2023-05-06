@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingIndicatorBar">
+        <attr name="sib_bar_height" format="dimension|reference"/>
+        <attr name="sib_bar_color" format="color|reference"/>
+        <attr name="sib_bending_height" format="dimension|reference"/>
+        <attr name="sib_bending_ratio" format="float"/>
+    </declare-styleable>
+</resources>
