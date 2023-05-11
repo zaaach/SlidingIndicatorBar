@@ -15,7 +15,6 @@
 ```groovy
 allprojects {
 	repositories {
-		...
 		maven { url 'https://jitpack.io' }
 	}
 }
@@ -25,11 +24,11 @@ allprojects {
 
 ```groovy
 dependencies {
-	 implementation 'com.github.zaaach.widget:SlidingIndicatorBar:x.y.z'
+	 implementation 'com.github.zaaach:SlidingIndicatorBar:x.y.z'
 }
 ```
 
-记得把`x.y.z`替换为[![jitpack](https://jitpack.io/v/zaaach/CityPicker.svg)](https://jitpack.io/#zaaach/CityPicker)中的数字
+记得把`x.y.z`替换为[![jitpack](https://jitpack.io/v/zaaach/SlidingIndicatorBar.svg)](https://jitpack.io/#zaaach/CityPicker)中的数字
 
 # Usage
 
