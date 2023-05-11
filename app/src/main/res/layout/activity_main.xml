@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
     android:orientation="vertical">
 
     <com.github.zaaach.widget.SlidingIndicatorBar
@@ -11,7 +13,6 @@
         app:sib_bar_color="@color/purple_200"
         app:sib_bar_height="16dp"
         app:sib_bending_height="56dp"
-        app:sib_bending_ratio="1"
-        android:background="#e6e6e6"/>
+        app:sib_bending_ratio="1"/>
 
 </LinearLayout>
