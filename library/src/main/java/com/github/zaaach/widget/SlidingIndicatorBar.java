@@ -110,4 +110,24 @@ public class SlidingIndicatorBar extends View {
                     radius, circlePaint);
         }
     }
+
+    /**
+     * 设置最大弯曲高度
+     *
+     * @param height 最大弯曲高度
+     */
+    public void setBendingHeight(int height) {
+        this.bendingHeight = height;
+        requestLayout();
+    }
+
+    /**
+     * 设置弯曲比例
+     *
+     * @param ratio 比例
+     */
+    public void setBendingRatio(float ratio) {
+        this.bendingRatio = ratio;
+        requestLayout();
+    }
 }

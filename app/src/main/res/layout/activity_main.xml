@@ -8,11 +8,12 @@
     android:orientation="vertical">
 
     <com.github.zaaach.widget.SlidingIndicatorBar
+        android:id="@+id/indicator_bar"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         app:sib_bar_color="@color/purple_200"
         app:sib_bar_height="16dp"
-        app:sib_bending_height="56dp"
-        app:sib_bending_ratio="1"/>
+        app:sib_bending_height="64dp"
+        app:sib_bending_ratio="0"/>
 
 </LinearLayout>
