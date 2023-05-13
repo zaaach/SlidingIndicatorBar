@@ -6,7 +6,7 @@
 
 # Preview
 
-![image](https://github.com/zaaach/SlidingIndicatorBar/raw/master/imgs/preview.jpg)
+![gif](https://github.com/zaaach/SlidingIndicatorBar/raw/master/imgs/preview.gif)
 
 # Install
 
