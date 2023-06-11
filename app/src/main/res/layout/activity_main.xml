@@ -14,6 +14,7 @@
         app:sib_bar_color="@color/purple_200"
         app:sib_bar_height="16dp"
         app:sib_bending_height="64dp"
-        app:sib_bending_ratio="0"/>
+        app:sib_bending_ratio="0.5"
+        app:sib_bending_direction="down"/>
 
 </LinearLayout>

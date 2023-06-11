@@ -5,5 +5,9 @@
         <attr name="sib_bar_color" format="color|reference"/>
         <attr name="sib_bending_height" format="dimension|reference"/>
         <attr name="sib_bending_ratio" format="float"/>
+        <attr name="sib_bending_direction" format="enum">
+            <enum name="down" value="0"/>
+            <enum name="up" value="1"/>
+        </attr>
     </declare-styleable>
 </resources>
