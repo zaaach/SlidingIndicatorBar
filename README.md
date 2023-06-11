@@ -41,17 +41,19 @@ dependencies {
         app:sib_bar_color="@color/purple_200"
         app:sib_bar_height="16dp"
         app:sib_bending_height="56dp"
-        app:sib_bending_ratio="1"/>
+        app:sib_bending_ratio="1"
+        app:sib_bending_direction="down"/>
 ```
 
 相关自定义属性：
 
-| 属性               | 值                   | 描述           |
-| ------------------ | -------------------- | -------------- |
-| sib_bar_height     | dimension\|reference | 指示条高度     |
-| sib_bar_color      | color\|reference     | 指示条颜色     |
-| sib_bending_height | dimension\|reference | 可弯曲最大高度 |
-| sib_bending_ratio  | float                | 弯曲比例       |
+| 属性                  | 值                   | 描述           |
+| --------------------- | -------------------- | -------------- |
+| sib_bar_height        | dimension\|reference | 指示条高度     |
+| sib_bar_color         | color\|reference     | 指示条颜色     |
+| sib_bending_height    | dimension\|reference | 可弯曲最大高度 |
+| sib_bending_ratio     | float                | 弯曲比例       |
+| sib_bending_direction | enum                 | up,down        |
 
 
 
